@@ -10,7 +10,6 @@ float maggiore(float arr1[], long & dim, float & num){
         if(num<arr1[i]){
             num=arr1[i];
         }
-
     }
     return num;
 }
