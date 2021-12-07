@@ -6,4 +6,4 @@
 #define ESERCITAZIONE_8_LIB_H
 
 #endif //ESERCITAZIONE_8_LIB_H
-float maggiore(float *, long &, float &);
+float maggiore(float *, int &, float &);
