@@ -6,9 +6,11 @@
 
 float maggiore(float arr1[], long & dim, float & num){
     arr1[0]=num;
-    for (int i=1; i<=dim-1;i++){
-        if(num<arr1[i]){
-            num=arr1[i];
+    if(dim>=2){
+        for (int i=1; i<=dim-1;i++) {
+            if (num < arr1[i]) {
+                      num = arr1[i];
+            }
         }
     }
     return num;
