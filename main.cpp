@@ -11,8 +11,8 @@ int main() {
         cin >> val;
         arr1[i] = val;
     }
-    maggiore(arr1, dim, num);
-    cout << num << endl;
+
+    cout << maggiore(arr1, dim, num, val) << endl;
 
     return 0;
 }
